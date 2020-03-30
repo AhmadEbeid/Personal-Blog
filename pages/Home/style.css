@@ -8,7 +8,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0em 10vw;
-    /* background: linear-gradient(white, transparent); */
+    background: linear-gradient(white, transparent);
     height: 7.05vw;
     font-weight: 600;
     z-index: 1000;
@@ -136,7 +136,7 @@ aside {
     border-radius: .25rem;
 }
 
-.article {
+.main {
     padding: 1.175vw;
     margin: 1.175vw;
 }
