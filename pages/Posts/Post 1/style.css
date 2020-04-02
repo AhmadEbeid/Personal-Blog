@@ -1,0 +1,22 @@
+@import '../../../stylesCommon.css';
+
+
+.details {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.image {
+    margin: 2vw;
+    padding: 0vw 2vw;
+}
+
+.side-details {
+    display: flex;
+    align-items: center;
+    margin: 2vw;
+}
+
+.mainData {
+    margin: 2vw;
+}
