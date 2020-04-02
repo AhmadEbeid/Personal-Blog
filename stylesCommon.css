@@ -48,13 +48,14 @@ nav {
 .navSocial .subscribe {
     padding: 1.175vw 2.35vw;
     text-decoration: none;
-    color: #058773;
+    color: #086759;
     border: solid;
     font-size: 1.175vw;
 }
 
 .navSocial .subscribe:hover {
-    background-color: #F0D4BA;
+    color: #6a290a;
+    /* background-color: #F0D4BA; */
     /* text-decoration: underline; */
 }
 
@@ -93,7 +94,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0em 1.175vw;
-    background-color: black;
+    background-color: #6a290a;
     color: white;
     height: 15vh;
 }
@@ -105,9 +106,44 @@ main {
 
 .main {
     display: grid;
-    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-columns: repeat(1, 100%);
 }
 
 .uppercase {
     text-transform: uppercase;
 }
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 33.3333%);
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 33.3333%);
+    }
+}
+

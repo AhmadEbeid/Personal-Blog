@@ -1,0 +1,99 @@
+
+@import '../../../stylesCommon.css';
+/* /////////// */
+
+.article {
+    padding: 1.175vw;
+    margin: 1.175vw;
+}
+
+.articleTitle {
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    color: #6a290a;
+}
+
+.articleSub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleType {
+    margin: 0px;
+    text-align: center;
+    color: #6a290a;
+    font-family: 'Satisfy', cursive;
+}
+
+.articleDate {
+    margin: 0px;
+    text-align: center;
+    color: #C17336;
+}
+
+.articleBody {
+    text-align: center;
+}
+
+.articleContinue {
+    text-align: center;
+    margin-top: 2.35vw; 
+}
+
+.articleContinue a {
+    padding: 0.5875vw 1.175vw;
+    text-decoration: none;
+    color: #086759;
+    border: solid;
+}
+
+.articleContinue a:hover {
+    color: #6a290a;
+}
+
+.articleImage {
+    padding: 20px;
+}
+
+.pagination {
+    text-align: center;
+    margin: 25px auto; 
+}
+
+.prev,
+.num,
+.next  {
+    display: inline-block;
+    padding: 0.5875vw 1.175vw;
+    color: #086759;
+    cursor: pointer;
+}
+
+.prev a,
+.num a,
+.next a {
+    text-decoration: none;
+    color: #086759;
+}
+
+.prev a:hover,
+.next a:hover {
+    text-decoration: underline;
+}
+
+.num span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.num .active {
+    background-color: #086759;
+    color: white;
+}
+
+.disabled {
+    color: #086759a3 !important;
+    cursor: not-allowed !important;
+    text-decoration: none !important;
+}
