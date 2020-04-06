@@ -38,3 +38,29 @@
 .articleBody {
     padding: 40px;
 }
+
+@media (max-width: 992px) {
+    .details {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .image img {
+        width: 50%;
+    }
+
+    .articleInfo,
+    .articleBody {
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .image img {
+        width: 100%;
+    }
+
+    .articleInfo {
+        padding-top: 20px;
+    }
+}

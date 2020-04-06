@@ -52,3 +52,9 @@
 .articleImage {
     padding: 20px;
 }
+
+@media (max-width: 768px) { 
+    .articleContinue a {
+        padding: 4px 8px;
+    }
+}
