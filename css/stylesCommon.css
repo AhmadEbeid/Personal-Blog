@@ -50,6 +50,11 @@ main {
     width: 40vw;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+
 
 @media (min-width: 576px) { 
     .title {
