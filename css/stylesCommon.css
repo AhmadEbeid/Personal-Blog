@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Satisfy&display=swap';
+@import './navbar.css';
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/header/header.jpg');
+    background-size: cover;
+    height: 22.2vw;
+    margin-top: -7.05vw;
+}
+
+.title {
+    color: #C17336;
+    font-size: 4.7vw;
+    margin-bottom: 0px;
+    margin-top: 25px
+}
+
+.sub-title {
+    color: #6a290a;
+    margin-top: 0px;
+    font-size: 2.35vw;
+    font-family: 'Satisfy', cursive;
+}
+
+.separator {
+    margin: 3.525vw auto 1.175vw auto;
+    width: 28vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 1.175vw;
+    background-color: #6a290a;
+    color: white;
+    height: 15vh;
+}
+
+main {
+    margin: 1.175vw 3.525vw;
+    padding: 0em 1.175vw;
+}
+

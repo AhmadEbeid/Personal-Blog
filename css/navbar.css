@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 10vw;
+    background: linear-gradient(white, transparent);
+    height: 7.05vw;
+    font-weight: 600;
+    z-index: 1000;
+    position: relative;
+}
+
+.navLink, .navSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink a.link {
+    text-decoration: none;
+    color: #6a290a;
+    margin-right: 2.35vw;
+    padding-bottom: 1.175vw;
+    font-size: 1.175vw;
+}
+
+.navSocial img.img {
+    padding-left: .5875vw;
+    width: 1.41vw;
+}
+
+.navSocial a.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink a.link:hover {
+    border-bottom: solid
+}
+
+.navSocial .subscribe {
+    padding: 1.175vw 2.35vw;
+    text-decoration: none;
+    color: #086759;
+    border: solid;
+    font-size: 1.175vw;
+}
+
+.navSocial .subscribe:hover {
+    color: #6a290a;
+}
+
+.activeLink {
+    border-bottom: solid
+}

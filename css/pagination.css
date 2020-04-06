@@ -1,0 +1,42 @@
+
+.pagination {
+    text-align: center;
+    margin: 25px auto; 
+}
+
+.prev,
+.num,
+.next  {
+    display: inline-block;
+    padding: 0.5875vw 1.175vw;
+    color: #086759;
+    cursor: pointer;
+}
+
+.prev a,
+.num a,
+.next a {
+    text-decoration: none;
+    color: #086759;
+}
+
+.prev a:hover,
+.next a:hover {
+    text-decoration: underline;
+}
+
+.num span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.num .active {
+    background-color: #086759;
+    color: white;
+}
+
+.disabled {
+    color: #086759a3 !important;
+    cursor: not-allowed !important;
+    text-decoration: none !important;
+}

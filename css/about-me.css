@@ -1,0 +1,109 @@
+@import './stylesCommon.css';
+
+.aboutMe {
+    display: grid;
+    grid-template-columns: 66.6666666% 33.333333%;
+}
+
+h1 {
+    color: #6a290a;
+    font-family: 'Satisfy', cursive;
+}
+
+.aboutInfo {
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.aboutInfo h2 {
+    color: #6a290a;
+    font-family: 'Satisfy', cursive;
+}
+
+.socialInfoTitle {
+    margin-top: 40px;
+}
+
+.emailHolder {
+    margin-top: 0px;
+}
+
+.mobileHolder {
+    margin-bottom: 0px;
+}
+
+.email a {
+    color: #086759;
+}
+
+.socialGroup {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.socialLink {
+    padding: 0px 10px;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.input:focus {
+    border: 2px solid #6a290a;
+    outline: none;
+}
+
+.btn {
+    padding: 0.5875vw 1.175vw;
+    text-decoration: none;
+    color: #086759;
+    border: solid;
+    background-color: white;
+}
+
+.btn:hover {
+    color: #6a290a;
+}
+
+.btnDive {
+    text-align: center;
+}
+
+.formGroup {
+    border: #6a290a solid;
+    padding: 20px;
+}
+
+.subscribeGroup {
+    padding: 22px 40px;
+}
+
+@media (max-width: 992px) {
+    .aboutMe {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .aboutInfo {
+        padding: 0px 20px;
+    }
+
+    .subscribeGroup {
+        padding: 22px 20px;
+    }
+}
