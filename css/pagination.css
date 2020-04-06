@@ -36,7 +36,8 @@
 }
 
 .disabled {
-    color: #086759a3 !important;
+    /* color: #086759a3 !important; */
+    color: #05322ca3 !important;
     cursor: not-allowed !important;
     text-decoration: none !important;
 }

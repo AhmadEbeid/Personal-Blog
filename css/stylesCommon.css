@@ -32,7 +32,8 @@ main {
 }
 
 .title {
-    color: #C17336;
+    /* color: #C17336; */
+    color: #915525;
     font-size: 38px;
     margin-bottom: 0px;
     margin-top: 25px
