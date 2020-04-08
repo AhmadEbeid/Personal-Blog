@@ -40,6 +40,36 @@
     padding: 40px;
 }
 
+.autherInfo {
+    margin-top: 0px;
+}
+
+.bio {
+    margin-top: -18px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    margin-left: 10px;
+}
+
+.sharePost {
+    margin-bottom: 0px;
+}
+
+.socialGroup {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.socialLink {
+    padding: 0px 10px;
+}
+
 @media (max-width: 992px) {
     .details {
         display: grid;
